@@ -3,6 +3,12 @@ mat-toolbar {
   z-index: 5;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  > img {
+    padding-left: 20px;
+    height: 45px;
+    width: 120px;
+  }
 }
 
 mat-sidenav-container {
